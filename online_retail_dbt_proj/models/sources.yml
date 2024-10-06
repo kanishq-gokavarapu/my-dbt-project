@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: retail_analytics
+    database: retail_analytics  
+    schema: retail_analytics
+    tables:
+      - name: amazon_sale_report

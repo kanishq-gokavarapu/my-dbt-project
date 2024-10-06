@@ -1,0 +1,654 @@
+[0m03:22:51.788390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252F95B2BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252F95B26F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252F95B29F0>]}
+
+
+============================== 03:22:51.796384 | f172c832-e7a8-4656-92ea-f0348f0f3f74 ==============================
+[0m03:22:51.796384 [info ] [MainThread]: Running with dbt=1.7.18
+[0m03:22:51.804339 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:24:07.738117 [debug] [MainThread]: Starter project path: D:\dbt_workspace\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m03:24:07.779301 [info ] [MainThread]: 
+Your new dbt project "online_retail_dbt_proj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:24:07.787435 [info ] [MainThread]: Setting up your profile.
+[0m03:24:45.159673 [info ] [MainThread]: Profile online_retail_dbt_proj written to C:\Users\Dell\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m03:24:45.159673 [debug] [MainThread]: Command `dbt init` succeeded at 03:24:45.159673 after 113.57 seconds
+[0m03:24:45.168190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252F8F97080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252F9788530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252F9484830>]}
+[0m03:24:45.168190 [debug] [MainThread]: Flushing usage events
+[0m03:45:13.192237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755718BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755CD6390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755CD5880>]}
+
+
+============================== 03:45:13.200415 | e69dc410-7003-4c1d-a935-03d99a2f2526 ==============================
+[0m03:45:13.200415 [info ] [MainThread]: Running with dbt=1.7.18
+[0m03:45:13.200415 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:45:13.200415 [info ] [MainThread]: dbt version: 1.7.18
+[0m03:45:13.200415 [info ] [MainThread]: python version: 3.12.7
+[0m03:45:13.200415 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m03:45:13.200415 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m03:45:13.330570 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m03:45:13.330570 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m03:45:13.330570 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m03:45:13.330570 [info ] [MainThread]: adapter type: mysql
+[0m03:45:13.330570 [info ] [MainThread]: adapter version: 1.7.0
+[0m03:45:13.330570 [info ] [MainThread]: Configuration:
+[0m03:45:13.330570 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m03:45:13.330570 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m03:45:13.330570 [info ] [MainThread]: Required dependencies:
+[0m03:45:13.330570 [debug] [MainThread]: Executing "git --help"
+[0m03:45:13.346584 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m03:45:13.358895 [info ] [MainThread]: Connection:
+[0m03:45:13.358895 [info ] [MainThread]:   server: localhost
+[0m03:45:13.362909 [info ] [MainThread]:   unix_socket: None
+[0m03:45:13.371112 [info ] [MainThread]:   port: 3306
+[0m03:45:13.377999 [info ] [MainThread]:   database: None
+[0m03:45:13.379512 [info ] [MainThread]:   schema: retail_analytics
+[0m03:45:13.379512 [info ] [MainThread]:   user: root
+[0m03:45:13.396045 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m03:45:13.396045 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m03:45:13.396045 [debug] [MainThread]: Using mysql connection "debug"
+[0m03:45:13.396045 [debug] [MainThread]: On debug: select 1 as id
+[0m03:45:13.396045 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:45:13.445215 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m03:45:13.445215 [debug] [MainThread]: On debug: Close
+[0m03:45:13.445215 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m03:45:13.453233 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m03:45:13.453233 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\dbt_workspace\dbt_project.yml> not found
+
+[0m03:45:13.453233 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m03:45:13.453233 [debug] [MainThread]: Command `dbt debug` failed at 03:45:13.453233 after 0.42 seconds
+[0m03:45:13.453233 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m03:45:13.453233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755A825A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755288E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755AD8D40>]}
+[0m03:45:13.453233 [debug] [MainThread]: Flushing usage events
+[0m03:48:39.690149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB892600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB893680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB892960>]}
+
+
+============================== 03:48:39.698278 | d340a9d2-cb8a-470a-af52-58201ef4be93 ==============================
+[0m03:48:39.698278 [info ] [MainThread]: Running with dbt=1.7.18
+[0m03:48:39.698278 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m03:48:39.698278 [info ] [MainThread]: dbt version: 1.7.18
+[0m03:48:39.698278 [info ] [MainThread]: python version: 3.12.7
+[0m03:48:39.698278 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m03:48:39.698278 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m03:48:39.835141 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m03:48:39.835141 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m03:48:39.835141 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m03:48:39.835141 [info ] [MainThread]: adapter type: mysql
+[0m03:48:39.835141 [info ] [MainThread]: adapter version: 1.7.0
+[0m03:48:39.940238 [info ] [MainThread]: Configuration:
+[0m03:48:39.940238 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m03:48:39.940238 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m03:48:39.940238 [info ] [MainThread]: Required dependencies:
+[0m03:48:39.940238 [debug] [MainThread]: Executing "git --help"
+[0m03:48:39.956407 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m03:48:39.956407 [info ] [MainThread]: Connection:
+[0m03:48:39.972412 [info ] [MainThread]:   server: localhost
+[0m03:48:39.972412 [info ] [MainThread]:   unix_socket: None
+[0m03:48:39.972412 [info ] [MainThread]:   port: 3306
+[0m03:48:39.972412 [info ] [MainThread]:   database: None
+[0m03:48:39.972412 [info ] [MainThread]:   schema: retail_analytics
+[0m03:48:39.972412 [info ] [MainThread]:   user: root
+[0m03:48:39.972412 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m03:48:39.980414 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m03:48:39.980414 [debug] [MainThread]: Using mysql connection "debug"
+[0m03:48:39.980414 [debug] [MainThread]: On debug: select 1 as id
+[0m03:48:39.980414 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:48:40.012890 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m03:48:40.012890 [debug] [MainThread]: On debug: Close
+[0m03:48:40.020903 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m03:48:40.020903 [info ] [MainThread]: [31m1 check failed:[0m
+[0m03:48:40.020903 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m03:48:40.020903 [debug] [MainThread]: Command `dbt debug` failed at 03:48:40.020903 after 0.48 seconds
+[0m03:48:40.028897 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m03:48:40.028897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB7433B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB6F8D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB642900>]}
+[0m03:48:40.028897 [debug] [MainThread]: Flushing usage events
+[0m04:00:52.107416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E864A47B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E863EEB830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E864A47FB0>]}
+
+
+============================== 04:00:52.108927 | 0102238c-251a-473f-b953-d27da8e6c0c5 ==============================
+[0m04:00:52.108927 [info ] [MainThread]: Running with dbt=1.7.18
+[0m04:00:52.108927 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m04:00:52.108927 [info ] [MainThread]: dbt version: 1.7.18
+[0m04:00:52.108927 [info ] [MainThread]: python version: 3.12.7
+[0m04:00:52.116939 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m04:00:52.116939 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m04:00:52.247679 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m04:00:52.247679 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m04:00:52.247679 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m04:00:52.247679 [info ] [MainThread]: adapter type: mysql
+[0m04:00:52.247679 [info ] [MainThread]: adapter version: 1.7.0
+[0m04:00:52.368375 [info ] [MainThread]: Configuration:
+[0m04:00:52.368375 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m04:00:52.368375 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m04:00:52.368375 [info ] [MainThread]: Required dependencies:
+[0m04:00:52.368375 [debug] [MainThread]: Executing "git --help"
+[0m04:00:52.384552 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m04:00:52.392578 [info ] [MainThread]: Connection:
+[0m04:00:52.392578 [info ] [MainThread]:   server: localhost
+[0m04:00:52.392578 [info ] [MainThread]:   unix_socket: None
+[0m04:00:52.392578 [info ] [MainThread]:   port: 3306
+[0m04:00:52.392578 [info ] [MainThread]:   database: None
+[0m04:00:52.392578 [info ] [MainThread]:   schema: retail_analytics
+[0m04:00:52.400569 [info ] [MainThread]:   user: root
+[0m04:00:52.400569 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m04:00:52.400569 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m04:00:52.400569 [debug] [MainThread]: Using mysql connection "debug"
+[0m04:00:52.408567 [debug] [MainThread]: On debug: select 1 as id
+[0m04:00:52.408567 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:00:52.444043 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m04:00:52.444043 [debug] [MainThread]: On debug: Close
+[0m04:00:52.444043 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m04:00:52.444043 [info ] [MainThread]: [31m1 check failed:[0m
+[0m04:00:52.444043 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m04:00:52.451945 [debug] [MainThread]: Command `dbt debug` failed at 04:00:52.451945 after 0.50 seconds
+[0m04:00:52.451945 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m04:00:52.451945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8647A6B40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8648A8200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8649518E0>]}
+[0m04:00:52.451945 [debug] [MainThread]: Flushing usage events
+[0m04:02:46.086552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193E15B29C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193E15B2D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193E15B2C30>]}
+
+
+============================== 04:02:46.093779 | d26433b2-babd-423d-aeaa-cdc47bc55803 ==============================
+[0m04:02:46.093779 [info ] [MainThread]: Running with dbt=1.7.18
+[0m04:02:46.093779 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'D:\\dbt_workspace\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m04:02:46.100156 [info ] [MainThread]: dbt version: 1.7.18
+[0m04:02:46.100156 [info ] [MainThread]: python version: 3.12.7
+[0m04:02:46.100156 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m04:02:46.100156 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m04:02:46.297317 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m04:02:46.297317 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m04:02:46.305321 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m04:02:46.305321 [info ] [MainThread]: adapter type: mysql
+[0m04:02:46.305321 [info ] [MainThread]: adapter version: 1.7.0
+[0m04:02:46.427998 [info ] [MainThread]: Configuration:
+[0m04:02:46.427998 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m04:02:46.427998 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m04:02:46.435952 [info ] [MainThread]: Required dependencies:
+[0m04:02:46.435952 [debug] [MainThread]: Executing "git --help"
+[0m04:02:46.443995 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m04:02:46.451946 [info ] [MainThread]: Connection:
+[0m04:02:46.451946 [info ] [MainThread]:   server: localhost
+[0m04:02:46.451946 [info ] [MainThread]:   unix_socket: None
+[0m04:02:46.451946 [info ] [MainThread]:   port: 3306
+[0m04:02:46.451946 [info ] [MainThread]:   database: None
+[0m04:02:46.451946 [info ] [MainThread]:   schema: retail_analytics
+[0m04:02:46.459998 [info ] [MainThread]:   user: root
+[0m04:02:46.459998 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m04:02:46.459998 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m04:02:46.459998 [debug] [MainThread]: Using mysql connection "debug"
+[0m04:02:46.459998 [debug] [MainThread]: On debug: select 1 as id
+[0m04:02:46.468279 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:02:46.501148 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m04:02:46.501148 [debug] [MainThread]: On debug: Close
+[0m04:02:46.501148 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m04:02:46.501148 [info ] [MainThread]: [31m1 check failed:[0m
+[0m04:02:46.501148 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m04:02:46.510176 [debug] [MainThread]: Command `dbt debug` failed at 04:02:46.510176 after 0.59 seconds
+[0m04:02:46.510176 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m04:02:46.510176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193E1DAAE40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193E0F949E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193E1438A70>]}
+[0m04:02:46.510176 [debug] [MainThread]: Flushing usage events
+[0m04:05:14.373334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7446450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD74474D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7445E80>]}
+
+
+============================== 04:05:14.381313 | e37327a0-7889-4475-98b0-3bd55f3d4352 ==============================
+[0m04:05:14.381313 [info ] [MainThread]: Running with dbt=1.7.18
+[0m04:05:14.381313 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'D:\\dbt_workspace\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m04:05:14.381313 [info ] [MainThread]: dbt version: 1.7.18
+[0m04:05:14.381313 [info ] [MainThread]: python version: 3.12.7
+[0m04:05:14.389315 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m04:05:14.389315 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m04:05:14.502456 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m04:05:14.502456 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m04:05:14.502456 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m04:05:14.510581 [info ] [MainThread]: adapter type: mysql
+[0m04:05:14.510581 [info ] [MainThread]: adapter version: 1.7.0
+[0m04:05:14.616193 [info ] [MainThread]: Configuration:
+[0m04:05:14.616193 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m04:05:14.616193 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m04:05:14.616193 [info ] [MainThread]: Required dependencies:
+[0m04:05:14.616193 [debug] [MainThread]: Executing "git --help"
+[0m04:05:14.632110 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m04:05:14.632110 [info ] [MainThread]: Connection:
+[0m04:05:14.632110 [info ] [MainThread]:   server: localhost
+[0m04:05:14.632110 [info ] [MainThread]:   unix_socket: None
+[0m04:05:14.632110 [info ] [MainThread]:   port: 3306
+[0m04:05:14.640295 [info ] [MainThread]:   database: None
+[0m04:05:14.640295 [info ] [MainThread]:   schema: retail_analytics
+[0m04:05:14.640295 [info ] [MainThread]:   user: root
+[0m04:05:14.640295 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m04:05:14.648364 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m04:05:14.648364 [debug] [MainThread]: Using mysql connection "debug"
+[0m04:05:14.648364 [debug] [MainThread]: On debug: select 1 as id
+[0m04:05:14.648364 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:05:14.680898 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m04:05:14.680898 [debug] [MainThread]: On debug: Close
+[0m04:05:14.680898 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m04:05:14.680898 [info ] [MainThread]: [31m1 check failed:[0m
+[0m04:05:14.680898 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m04:05:14.689215 [debug] [MainThread]: Command `dbt debug` failed at 04:05:14.689215 after 0.47 seconds
+[0m04:05:14.689215 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m04:05:14.689215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7596E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD64CE090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD67B84A0>]}
+[0m04:05:14.689215 [debug] [MainThread]: Flushing usage events
+[0m04:12:59.127747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C7F4DF75C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C7F4DF6480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C7F4DF56D0>]}
+
+
+============================== 04:12:59.133260 | 3265f0f5-5716-4e96-9658-8d2d5e32863a ==============================
+[0m04:12:59.133260 [info ] [MainThread]: Running with dbt=1.7.18
+[0m04:12:59.134976 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m04:12:59.134976 [info ] [MainThread]: dbt version: 1.7.18
+[0m04:12:59.134976 [info ] [MainThread]: python version: 3.12.7
+[0m04:12:59.134976 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m04:12:59.134976 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m04:12:59.262797 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m04:12:59.262797 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m04:12:59.262797 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m04:12:59.262797 [info ] [MainThread]: adapter type: mysql
+[0m04:12:59.262797 [info ] [MainThread]: adapter version: 1.7.0
+[0m04:12:59.384513 [info ] [MainThread]: Configuration:
+[0m04:12:59.384513 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m04:12:59.384513 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m04:12:59.384513 [info ] [MainThread]: Required dependencies:
+[0m04:12:59.384513 [debug] [MainThread]: Executing "git --help"
+[0m04:12:59.402131 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m04:12:59.409148 [info ] [MainThread]: Connection:
+[0m04:12:59.409148 [info ] [MainThread]:   server: localhost
+[0m04:12:59.409148 [info ] [MainThread]:   unix_socket: None
+[0m04:12:59.409148 [info ] [MainThread]:   port: 3306
+[0m04:12:59.409148 [info ] [MainThread]:   database: None
+[0m04:12:59.409148 [info ] [MainThread]:   schema: retail_analytics
+[0m04:12:59.409148 [info ] [MainThread]:   user: root
+[0m04:12:59.409148 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m04:12:59.418162 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m04:12:59.418162 [debug] [MainThread]: Using mysql connection "debug"
+[0m04:12:59.418162 [debug] [MainThread]: On debug: select 1 as id
+[0m04:12:59.418162 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:12:59.450052 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m04:12:59.458054 [debug] [MainThread]: On debug: Close
+[0m04:12:59.458054 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m04:12:59.458054 [info ] [MainThread]: [31m1 check failed:[0m
+[0m04:12:59.458054 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m04:12:59.458054 [debug] [MainThread]: Command `dbt debug` failed at 04:12:59.458054 after 0.48 seconds
+[0m04:12:59.458054 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m04:12:59.458054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C7F451CB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C7F4CA6C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C7F43D17C0>]}
+[0m04:12:59.458054 [debug] [MainThread]: Flushing usage events
+[0m06:24:18.010486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986FCE5460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986FCE4620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986FCE56D0>]}
+
+
+============================== 06:24:18.018836 | 1d098ddf-badd-4ece-ab2a-e9d1ede46a68 ==============================
+[0m06:24:18.018836 [info ] [MainThread]: Running with dbt=1.7.18
+[0m06:24:18.018836 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'D:\\dbt_workspace\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:24:18.262036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1d098ddf-badd-4ece-ab2a-e9d1ede46a68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986FCC2630>]}
+[0m06:24:18.342283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1d098ddf-badd-4ece-ab2a-e9d1ede46a68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986FEAF260>]}
+[0m06:24:18.342283 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m06:24:18.366626 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m06:24:18.374642 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m06:24:18.374642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1d098ddf-badd-4ece-ab2a-e9d1ede46a68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986FD1BC50>]}
+[0m06:24:20.253716 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m06:24:20.261719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1d098ddf-badd-4ece-ab2a-e9d1ede46a68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298706C66C0>]}
+[0m06:24:20.318456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1d098ddf-badd-4ece-ab2a-e9d1ede46a68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298706C66C0>]}
+[0m06:24:20.318456 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m06:24:20.327118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1d098ddf-badd-4ece-ab2a-e9d1ede46a68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002987048B410>]}
+[0m06:24:20.328970 [info ] [MainThread]: 
+[0m06:24:20.328970 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:24:20.335395 [debug] [MainThread]: Command end result
+[0m06:24:20.356407 [debug] [MainThread]: Command `dbt run` succeeded at 06:24:20.356407 after 2.52 seconds
+[0m06:24:20.356407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002987051D7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986B29E9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002986F3604A0>]}
+[0m06:24:20.359420 [debug] [MainThread]: Flushing usage events
+[0m06:35:56.228796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD60FC60F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD60FC4500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD60FC6570>]}
+
+
+============================== 06:35:56.236920 | fbbc5f43-cdb6-4a1b-8cc3-b38451152277 ==============================
+[0m06:35:56.236920 [info ] [MainThread]: Running with dbt=1.7.18
+[0m06:35:56.236920 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'D:\\dbt_workspace\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:35:56.462625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fbbc5f43-cdb6-4a1b-8cc3-b38451152277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD617EABD0>]}
+[0m06:35:56.527719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fbbc5f43-cdb6-4a1b-8cc3-b38451152277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD61844950>]}
+[0m06:35:56.527719 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m06:35:56.535723 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m06:35:56.633413 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:35:56.633413 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:35:56.633413 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m06:35:56.641083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fbbc5f43-cdb6-4a1b-8cc3-b38451152277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD618465A0>]}
+[0m06:35:56.650583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fbbc5f43-cdb6-4a1b-8cc3-b38451152277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD619976E0>]}
+[0m06:35:56.650583 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m06:35:56.658573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fbbc5f43-cdb6-4a1b-8cc3-b38451152277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD619961E0>]}
+[0m06:35:56.658573 [info ] [MainThread]: 
+[0m06:35:56.658573 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:35:56.658573 [debug] [MainThread]: Command end result
+[0m06:35:56.674521 [debug] [MainThread]: Command `dbt run` succeeded at 06:35:56.674521 after 0.59 seconds
+[0m06:35:56.674521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD602AAE70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD60B63380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD61288E30>]}
+[0m06:35:56.674521 [debug] [MainThread]: Flushing usage events
+[0m06:47:45.744583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C8E25310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C8B2F0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C8C5F680>]}
+
+
+============================== 06:47:45.752561 | 2d5fde07-8c53-415c-8ab0-199dd998133a ==============================
+[0m06:47:45.752561 [info ] [MainThread]: Running with dbt=1.7.18
+[0m06:47:45.760612 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --models +stg_amazon_sales.sql', 'send_anonymous_usage_stats': 'True'}
+[0m06:47:46.292158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2d5fde07-8c53-415c-8ab0-199dd998133a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C9169550>]}
+[0m06:47:46.431914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2d5fde07-8c53-415c-8ab0-199dd998133a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C6707140>]}
+[0m06:47:46.436923 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m06:47:46.448503 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m06:47:46.538121 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:47:46.541265 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:47:46.541265 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m06:47:46.549699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2d5fde07-8c53-415c-8ab0-199dd998133a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C90C6450>]}
+[0m06:47:46.561241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2d5fde07-8c53-415c-8ab0-199dd998133a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C98735C0>]}
+[0m06:47:46.566374 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m06:47:46.568068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2d5fde07-8c53-415c-8ab0-199dd998133a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C8A6E8D0>]}
+[0m06:47:46.568068 [warn ] [MainThread]: The selection criterion '+stg_amazon_sales.sql' does not match any nodes
+[0m06:47:46.568068 [info ] [MainThread]: 
+[0m06:47:46.568068 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:47:46.574842 [debug] [MainThread]: Command end result
+[0m06:47:46.588037 [debug] [MainThread]: Command `dbt run` succeeded at 06:47:46.588037 after 1.95 seconds
+[0m06:47:46.588037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C7CF2F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C8E79D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231C5EE6D20>]}
+[0m06:47:46.591184 [debug] [MainThread]: Flushing usage events
+[0m06:48:10.676836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F64C7CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F64C6EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F64C6A20>]}
+
+
+============================== 06:48:10.676836 | bcfdda86-6895-4dee-8527-0c71fac8a1e0 ==============================
+[0m06:48:10.676836 [info ] [MainThread]: Running with dbt=1.7.18
+[0m06:48:10.684352 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'D:\\dbt_workspace\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --models stg_amazon_sales.sql', 'send_anonymous_usage_stats': 'True'}
+[0m06:48:10.946958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bcfdda86-6895-4dee-8527-0c71fac8a1e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F6C9CBF0>]}
+[0m06:48:11.018212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bcfdda86-6895-4dee-8527-0c71fac8a1e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F64C4680>]}
+[0m06:48:11.018212 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m06:48:11.027356 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m06:48:11.121940 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:48:11.121940 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:48:11.121940 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m06:48:11.126953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bcfdda86-6895-4dee-8527-0c71fac8a1e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F6133470>]}
+[0m06:48:11.143595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bcfdda86-6895-4dee-8527-0c71fac8a1e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F6D72450>]}
+[0m06:48:11.150372 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m06:48:11.153599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bcfdda86-6895-4dee-8527-0c71fac8a1e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F61C76B0>]}
+[0m06:48:11.153599 [warn ] [MainThread]: The selection criterion 'stg_amazon_sales.sql' does not match any nodes
+[0m06:48:11.157118 [info ] [MainThread]: 
+[0m06:48:11.157118 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:48:11.157118 [debug] [MainThread]: Command end result
+[0m06:48:11.177627 [debug] [MainThread]: Command `dbt run` succeeded at 06:48:11.177627 after 0.65 seconds
+[0m06:48:11.177627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F59A0E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F663E2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201F5AEBA40>]}
+[0m06:48:11.177627 [debug] [MainThread]: Flushing usage events
+[0m07:04:25.501773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8D85220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8D84D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8D84950>]}
+
+
+============================== 07:04:25.509776 | d8854193-fcc1-4b57-addb-11eb8290d912 ==============================
+[0m07:04:25.509776 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:04:25.509776 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --models stg_amazon_sales.sql', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m07:04:25.743310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd8854193-fcc1-4b57-addb-11eb8290d912', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8263170>]}
+[0m07:04:25.808491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd8854193-fcc1-4b57-addb-11eb8290d912', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8D84800>]}
+[0m07:04:25.808491 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:04:25.824704 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:04:25.897379 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:04:25.897379 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:04:25.897379 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m07:04:25.905385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd8854193-fcc1-4b57-addb-11eb8290d912', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8D62750>]}
+[0m07:04:25.913385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd8854193-fcc1-4b57-addb-11eb8290d912', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F967EED0>]}
+[0m07:04:25.913385 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:04:25.913385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd8854193-fcc1-4b57-addb-11eb8290d912', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8F525D0>]}
+[0m07:04:25.913385 [warn ] [MainThread]: The selection criterion 'stg_amazon_sales.sql' does not match any nodes
+[0m07:04:25.921379 [info ] [MainThread]: 
+[0m07:04:25.921379 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:04:25.921379 [debug] [MainThread]: Command end result
+[0m07:04:25.937391 [debug] [MainThread]: Command `dbt run` succeeded at 07:04:25.937391 after 0.63 seconds
+[0m07:04:25.937391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F271FE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8B36780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216F8B1FE00>]}
+[0m07:04:25.945385 [debug] [MainThread]: Flushing usage events
+[0m07:09:54.478349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EFA22750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EF8289B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EFA22B40>]}
+
+
+============================== 07:09:54.486363 | 3f102201-4cc1-47f9-97e1-387003cb9588 ==============================
+[0m07:09:54.486363 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:09:54.486363 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m07:09:54.696553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3f102201-4cc1-47f9-97e1-387003cb9588', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EF88ABA0>]}
+[0m07:09:54.761696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3f102201-4cc1-47f9-97e1-387003cb9588', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EF8289B0>]}
+[0m07:09:54.761696 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:09:54.769920 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:09:54.834846 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:09:54.834846 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:09:54.834846 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m07:09:54.842852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3f102201-4cc1-47f9-97e1-387003cb9588', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6F023E4B0>]}
+[0m07:09:54.850860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3f102201-4cc1-47f9-97e1-387003cb9588', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6F0393410>]}
+[0m07:09:54.850860 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:09:54.850860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3f102201-4cc1-47f9-97e1-387003cb9588', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6F01EB230>]}
+[0m07:09:54.850860 [info ] [MainThread]: 
+[0m07:09:54.850860 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:09:54.858849 [debug] [MainThread]: Command end result
+[0m07:09:54.874850 [debug] [MainThread]: Command `dbt run` succeeded at 07:09:54.874850 after 0.55 seconds
+[0m07:09:54.874850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EF786D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EE8EF5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6EEDC06B0>]}
+[0m07:09:54.874850 [debug] [MainThread]: Flushing usage events
+[0m07:11:34.289879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221949D12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221949D3890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221949D1D00>]}
+
+
+============================== 07:11:34.297937 | 77942d59-f67b-4524-8708-6dca66359fa0 ==============================
+[0m07:11:34.297937 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:11:34.297937 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m07:11:34.524394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '77942d59-f67b-4524-8708-6dca66359fa0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022194A287D0>]}
+[0m07:11:34.590347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '77942d59-f67b-4524-8708-6dca66359fa0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022194839850>]}
+[0m07:11:34.590347 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:11:34.598513 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:11:34.679562 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:11:34.679562 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:11:34.679562 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m07:11:34.687567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '77942d59-f67b-4524-8708-6dca66359fa0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022195216030>]}
+[0m07:11:34.703566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '77942d59-f67b-4524-8708-6dca66359fa0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022195319B50>]}
+[0m07:11:34.703566 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:11:34.703566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '77942d59-f67b-4524-8708-6dca66359fa0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221951C0AD0>]}
+[0m07:11:34.711568 [info ] [MainThread]: 
+[0m07:11:34.719619 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:11:34.719619 [debug] [MainThread]: Command end result
+[0m07:11:34.735578 [debug] [MainThread]: Command `dbt run` succeeded at 07:11:34.735578 after 0.60 seconds
+[0m07:11:34.735578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002219456B320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022191B11100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221945405F0>]}
+[0m07:11:34.735578 [debug] [MainThread]: Flushing usage events
+[0m07:12:21.543033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF64C71760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF64AFF680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF64C71220>]}
+
+
+============================== 07:12:21.551033 | ec407089-bc61-4840-8833-434e4d5ef08c ==============================
+[0m07:12:21.551033 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:12:21.591047 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'D:\\dbt_workspace\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m07:12:21.809806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ec407089-bc61-4840-8833-434e4d5ef08c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF64C9EBA0>]}
+[0m07:12:21.867164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ec407089-bc61-4840-8833-434e4d5ef08c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF654B8470>]}
+[0m07:12:21.875337 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:12:21.883449 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:12:21.972048 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:12:21.972048 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:12:21.972048 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.example
+[0m07:12:21.980071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ec407089-bc61-4840-8833-434e4d5ef08c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF654ED670>]}
+[0m07:12:21.996047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ec407089-bc61-4840-8833-434e4d5ef08c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF656436E0>]}
+[0m07:12:21.996047 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:12:22.012049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ec407089-bc61-4840-8833-434e4d5ef08c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF6497E4B0>]}
+[0m07:12:22.012049 [info ] [MainThread]: 
+[0m07:12:22.020050 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:12:22.020050 [debug] [MainThread]: Command end result
+[0m07:12:22.036070 [debug] [MainThread]: Command `dbt run` succeeded at 07:12:22.036070 after 0.66 seconds
+[0m07:12:22.036070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF64B22B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF648473B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF6480B4D0>]}
+[0m07:12:22.044058 [debug] [MainThread]: Flushing usage events
+[0m07:14:08.661483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B88B7320F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B88BBEBE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B88BBEB3B0>]}
+
+
+============================== 07:14:08.668906 | e1a89310-be5a-498e-a620-80ab8b75631e ==============================
+[0m07:14:08.668906 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:14:08.668906 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m07:14:08.668906 [info ] [MainThread]: dbt version: 1.7.18
+[0m07:14:08.668906 [info ] [MainThread]: python version: 3.12.7
+[0m07:14:08.668906 [info ] [MainThread]: python path: D:\dbt_workspace\dbt-env\Scripts\python.exe
+[0m07:14:08.668906 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m07:14:08.787058 [info ] [MainThread]: Using profiles dir at C:\Users\Dell\.dbt
+[0m07:14:08.791862 [info ] [MainThread]: Using profiles.yml file at C:\Users\Dell\.dbt\profiles.yml
+[0m07:14:08.791862 [info ] [MainThread]: Using dbt_project.yml file at D:\dbt_workspace\dbt_project.yml
+[0m07:14:08.791862 [info ] [MainThread]: adapter type: mysql
+[0m07:14:08.791862 [info ] [MainThread]: adapter version: 1.7.0
+[0m07:14:08.906882 [info ] [MainThread]: Configuration:
+[0m07:14:08.906882 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m07:14:08.906882 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m07:14:08.906882 [info ] [MainThread]: Required dependencies:
+[0m07:14:08.906882 [debug] [MainThread]: Executing "git --help"
+[0m07:14:08.931608 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m07:14:08.936622 [info ] [MainThread]: Connection:
+[0m07:14:08.936622 [info ] [MainThread]:   server: localhost
+[0m07:14:08.936622 [info ] [MainThread]:   unix_socket: None
+[0m07:14:08.939652 [info ] [MainThread]:   port: 3306
+[0m07:14:08.939652 [info ] [MainThread]:   database: None
+[0m07:14:08.939652 [info ] [MainThread]:   schema: retail_analytics
+[0m07:14:08.946760 [info ] [MainThread]:   user: root
+[0m07:14:08.947799 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:14:08.947799 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m07:14:08.947799 [debug] [MainThread]: Using mysql connection "debug"
+[0m07:14:08.947799 [debug] [MainThread]: On debug: select 1 as id
+[0m07:14:08.947799 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:14:08.996636 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m07:14:08.996636 [debug] [MainThread]: On debug: Close
+[0m07:14:08.996636 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m07:14:08.996636 [info ] [MainThread]: [31m1 check failed:[0m
+[0m07:14:08.996636 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m07:14:08.996636 [debug] [MainThread]: Command `dbt debug` failed at 07:14:08.996636 after 0.50 seconds
+[0m07:14:08.996636 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m07:14:09.004973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B88BC4A180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B88C3A6F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B88B9891C0>]}
+[0m07:14:09.004973 [debug] [MainThread]: Flushing usage events
+[0m07:25:14.389214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265B3E15B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265B3E0050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265A20CC80>]}
+
+
+============================== 07:25:14.397200 | 786374d7-5302-4a88-8f69-c8b31e4cef7a ==============================
+[0m07:25:14.397200 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:25:14.397200 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'D:\\dbt_workspace\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m07:25:14.631591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '786374d7-5302-4a88-8f69-c8b31e4cef7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265B4387D0>]}
+[0m07:25:14.705092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '786374d7-5302-4a88-8f69-c8b31e4cef7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265B4387D0>]}
+[0m07:25:14.705092 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:25:14.713378 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:25:14.786356 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:25:14.786356 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:25:14.786356 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj
+[0m07:25:14.794354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '786374d7-5302-4a88-8f69-c8b31e4cef7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265B40FBF0>]}
+[0m07:25:14.810359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '786374d7-5302-4a88-8f69-c8b31e4cef7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265BCE7920>]}
+[0m07:25:14.818362 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:25:14.818362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '786374d7-5302-4a88-8f69-c8b31e4cef7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265BCE63C0>]}
+[0m07:25:14.818362 [info ] [MainThread]: 
+[0m07:25:14.826364 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:25:14.826364 [debug] [MainThread]: Command end result
+[0m07:25:14.850364 [debug] [MainThread]: Command `dbt run` succeeded at 07:25:14.842352 after 0.60 seconds
+[0m07:25:14.850364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265A20CC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265A9BA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002265B0E9C40>]}
+[0m07:25:14.850364 [debug] [MainThread]: Flushing usage events
+[0m07:33:10.349145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67FA525A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67F900770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67F900D10>]}
+
+
+============================== 07:33:10.357259 | 5bab31e3-29a5-4f19-bb2a-b05d7d5e54f6 ==============================
+[0m07:33:10.357259 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:33:10.357259 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m07:33:10.583529 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5bab31e3-29a5-4f19-bb2a-b05d7d5e54f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67FCA9F10>]}
+[0m07:33:10.648566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5bab31e3-29a5-4f19-bb2a-b05d7d5e54f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67FED8470>]}
+[0m07:33:10.648566 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:33:10.659333 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:33:10.732844 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:33:10.738356 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:33:10.738356 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj
+[0m07:33:10.738356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5bab31e3-29a5-4f19-bb2a-b05d7d5e54f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67F889A60>]}
+[0m07:33:10.756001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5bab31e3-29a5-4f19-bb2a-b05d7d5e54f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6003F34D0>]}
+[0m07:33:10.756001 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:33:10.756001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5bab31e3-29a5-4f19-bb2a-b05d7d5e54f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67FA87110>]}
+[0m07:33:10.756001 [info ] [MainThread]: 
+[0m07:33:10.756001 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:33:10.763012 [debug] [MainThread]: Command end result
+[0m07:33:10.772180 [debug] [MainThread]: Command `dbt run` succeeded at 07:33:10.772180 after 0.63 seconds
+[0m07:33:10.772180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67F922510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67F174B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B67FF4A000>]}
+[0m07:33:10.772180 [debug] [MainThread]: Flushing usage events
+[0m07:34:24.068547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E1B38320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E197A6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E197B770>]}
+
+
+============================== 07:34:24.070059 | 9404a4bb-296e-4b1f-9a3d-36feabf3fee7 ==============================
+[0m07:34:24.070059 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:34:24.070059 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\dbt_workspace\\logs', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m07:34:24.289027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9404a4bb-296e-4b1f-9a3d-36feabf3fee7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E1F17CE0>]}
+[0m07:34:24.354835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9404a4bb-296e-4b1f-9a3d-36feabf3fee7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E1F17CE0>]}
+[0m07:34:24.354835 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m07:34:24.370932 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m07:34:24.443085 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:34:24.443085 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:34:24.443085 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.online_retail_dbt_proj.stg_amazon_sales
+[0m07:34:24.451820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9404a4bb-296e-4b1f-9a3d-36feabf3fee7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E2561250>]}
+[0m07:34:24.460242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9404a4bb-296e-4b1f-9a3d-36feabf3fee7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E260EBA0>]}
+[0m07:34:24.460242 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m07:34:24.467757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9404a4bb-296e-4b1f-9a3d-36feabf3fee7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E24FD370>]}
+[0m07:34:24.467757 [info ] [MainThread]: 
+[0m07:34:24.467757 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m07:34:24.467757 [debug] [MainThread]: Command end result
+[0m07:34:24.487788 [debug] [MainThread]: Command `dbt run` succeeded at 07:34:24.487278 after 0.56 seconds
+[0m07:34:24.487788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E18415B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E1D77530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196E1CD1D90>]}
+[0m07:34:24.487788 [debug] [MainThread]: Flushing usage events
+[0m16:54:11.539135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CFB23830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CF8299A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CF82ADE0>]}
+
+
+============================== 16:54:11.552897 | ae47cd37-1db9-44e8-a97c-ff4b200309f5 ==============================
+[0m16:54:11.552897 [info ] [MainThread]: Running with dbt=1.7.18
+[0m16:54:11.552897 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'D:\\dbt_workspace\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m16:54:11.768298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ae47cd37-1db9-44e8-a97c-ff4b200309f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CFBB7890>]}
+[0m16:54:11.847613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ae47cd37-1db9-44e8-a97c-ff4b200309f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CF6BB530>]}
+[0m16:54:11.847613 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m16:54:11.847613 [debug] [MainThread]: checksum: 7ef98830ab3f0215d011ffa635e2417c6313d5b77f40f33d534bad4eb8784f08, vars: {}, profile: , target: , version: 1.7.18
+[0m16:54:11.919674 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:54:11.919674 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:54:11.921129 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 6 unused configuration paths:
+- models.online_retail_dbt_proj.fulfilment_details
+- models.online_retail_dbt_proj.fact_table
+- models.online_retail_dbt_proj.address_details
+- models.online_retail_dbt_proj.product_detail
+- models.online_retail_dbt_proj.shipping_details
+- models.online_retail_dbt_proj.stg_amazon_sales
+[0m16:54:11.921129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ae47cd37-1db9-44e8-a97c-ff4b200309f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CFA13380>]}
+[0m16:54:11.938996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ae47cd37-1db9-44e8-a97c-ff4b200309f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261D03C2C30>]}
+[0m16:54:11.942354 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m16:54:11.949116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ae47cd37-1db9-44e8-a97c-ff4b200309f5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CFB54350>]}
+[0m16:54:11.949116 [info ] [MainThread]: 
+[0m16:54:11.954967 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:54:11.954967 [debug] [MainThread]: Command end result
+[0m16:54:11.970980 [debug] [MainThread]: Command `dbt test` succeeded at 16:54:11.970980 after 0.57 seconds
+[0m16:54:11.973376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CF000620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CF92A840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261CF7C9A60>]}
+[0m16:54:11.973376 [debug] [MainThread]: Flushing usage events
